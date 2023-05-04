@@ -1,0 +1,149 @@
+
+body{
+    background-color: lightgrey;
+    font-family:sans-serif;
+    line-height: 1.5;
+}
+main{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+}
+img{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: solid 2px darkred;
+    border-bottom: solid 2px darkred;
+    padding: 5px;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info{
+    font-style: italic;
+    border-top: solid 1px black;
+    text-align: center;
+    font-size: 14px;
+}
+h5{
+    background-color: black;
+    width: 70px;
+    padding: 10px;
+    color: white;
+    font-family:Oswald;
+    text-align: center;
+    
+}
+.presentation{
+    margin: 15px;
+    background-color: rgba(230, 228, 228, 0.71);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family:Oswald;
+    font-weight: bold;
+    margin: 5px;
+}
+h2{
+    font-size: 25px;
+    margin: 20px;
+   
+    text-align: center;
+    font-weight: bold;
+    font-family:Oswald;
+}
+h3{
+    font-family:Oswald;
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding:10px;
+}
+
+a {
+    color:darkred;
+}
+.acteurs li{
+    background-color: rgba(230, 228, 228, 0.71);
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 5px;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgba(230, 228, 228, 0.71);
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+em {
+    font-weight: bold;
+}
+.logo2 {
+   width: 120px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    border: solid 1px lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cards h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+}
